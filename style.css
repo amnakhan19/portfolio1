@@ -1,0 +1,183 @@
+/* Add a black background color to the top navigation */
+*{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topnav {
+    background-color: hsl(0, 3%, 13%);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #7b6969;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4e0d0d;
+    color: white;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+  }
+
+  a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  
+  .contact {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #3b0303;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+
+
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea {
+    height: 150px;
+  }
+
+  input[type="submit"] {
+    background-color: #ba0bb4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #840303;
+  }
+
+  label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: medium;
+
+
+  }
+  h5{
+    color: #3d0059;
+ font-size: large;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: bold;
+  }
+
+  .project{ 
+    font-size: large;
+  }
+
+
+  
+h3{
+  color: white;
+  font-size: x-large;
+
+
+
+}
+/* Style the content area */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Style the text and image */
+.text {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+  font-size: large;  
+}
+
+.image {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.image img {
+  width: 100%; /* Adjust the width of the image as needed */
+  max-width: 350px; /* Set maximum width for the image */
+  border-radius: 50%; /* Optional: Adds rounded corners to the image */
+}
+
+
+.fa-linkedin{
+  font-size: 30px;
+  color: black;
+  text-align: left;
+}
+.fa-github{
+
+  font-size: 30px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h8 {
+  margin-bottom: 30px;
+  color: rgb(214, 29, 29);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
